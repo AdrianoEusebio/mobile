@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const DesafioScreen = () => {
+const AgendaScreen = () => {
   return (
     <View>
-      <Text>index</Text>
+      <Text>AgendaScreen</Text>
     </View>
   )
 }
 
-export default DesafioScreen
+export default AgendaScreen

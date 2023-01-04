@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const DesafioScreen = () => {
+const ConfigScreen = () => {
   return (
     <View>
       <Text>index</Text>
@@ -9,4 +9,4 @@ const DesafioScreen = () => {
   )
 }
 
-export default DesafioScreen
+export default ConfigScreen
