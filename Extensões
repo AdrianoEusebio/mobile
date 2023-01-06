@@ -1,0 +1,23 @@
+*extensões que precisa baixar pra rodar o react-navigation*
+
+npm install @react-navigation/native
+
+npm install react-native-screens react-native-safe-area-context
+
+*extensões que precisa para baixar pra rodar o DrawerNavigator*
+
+npm install @react-navigation/drawer
+
+npx expo install react-native-gesture-handler react-native-reanimated
+
+npm install react-native-gesture-handler react-native-reanimated
+
+*extensões que precisa para baixar pra rodar o Tab Navigator*
+
+npm install @react-navigation/bottom-tabs
+
+npm install @react-navigation/native-stack
+
+npm install expo-status-bar
+
+*para mais, acesse: https://reactnavigation.org/docs/getting-started*
