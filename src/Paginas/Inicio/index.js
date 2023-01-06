@@ -1,25 +1,26 @@
-import { View, Text } from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import Teste from './Teste';
-import Teste2 from './Teste2';
 
-const Tab = createBottomTabNavigator();
-
-const InicioScreen = () => {
-  return (
-    <View>
-      <Tab.Screen name="Menu"/>
+function InicioScreen(){
+  return(
+    <View style={styles.container}>
+      <Text style={StyleSheet.text}> 
+      Pagina social
+      </Text>
     </View>
   )
 }
 
-export default function Routes(){
-    return(
-        <Tab.Navigator>
-            <Tab.Screen name=' Teste' component={Teste}/>
-            <Tab.Screen name='Teste2r' component={Teste2}/>
-        </Tab.Navigator>
-    )
-}
+const styles = StyleSheet.create({
+  container:{
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  text:{
+    fontSize: 25,
+    fontWeight: 'bold'
+  }
+})
 
+export default InicioScreen
