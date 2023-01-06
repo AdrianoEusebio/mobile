@@ -1,7 +1,7 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import Teste2 from "./Paginas/Inicio/Teste2";
 import InicioScreen from "./Paginas/Inicio";
+import LiturgiaScreen from "./Paginas/Liturgia";
 
 
 const Tab = createBottomTabNavigator();
@@ -19,8 +19,8 @@ export default function RoutesScreen(){
                 headerShown: false
             }}/>
 
-            <Tab.Screen name='Zap'
-            component={Teste2}
+            <Tab.Screen name='Liturgia'
+            component={LiturgiaScreen}
             options={{
                 headerShown: false}}/>
 

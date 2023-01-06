@@ -1,12 +1,12 @@
-import React from 'react'
 import { View, Text } from 'react-native'
+import React from 'react'
 
-const ConfigScreen = () => {
+const index = () => {
   return (
     <View>
-      <Text>index</Text>
+      <Text>Teste</Text>
     </View>
   )
 }
 
-export default ConfigScreen
+export default index
