@@ -4,7 +4,6 @@ import RoutesScreen from './Routes';
 import DesafioScreen from './Paginas/Desafios';
 import AgendaScreen from './Paginas/Agenda';
 import ConfigScreen from './Paginas/Configurações';
-import { BorderlessButton } from 'react-native-gesture-handler';
 
 
 const Drawer = createDrawerNavigator();
