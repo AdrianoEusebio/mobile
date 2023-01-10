@@ -3,7 +3,7 @@ import Inicio from './Paginas/Inicio'
 import Perfil from './Paginas/Perfil'
 import Desafios from './Paginas/Desafios'
 import Liturgia from './Paginas/Liturgia'
-import Mais from './Paginas/Mais'
+import Agenda from './Paginas/Agenda'
 import Login from './Screens/Login/Login'
 import Cadastro from './Screens/Cadastro/Cadastro'
 const Tab = createBottomTabNavigator();
@@ -32,8 +32,8 @@ export default function Routes(){
             />
 
             <Tab.Screen
-                name= "Mais"
-                component={Mais}
+                name= "Agenda"
+                component={Agenda}
             />
 
             <Tab.Screen
